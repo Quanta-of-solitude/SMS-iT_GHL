@@ -5,7 +5,7 @@ from func.custom_conversations import Send_Messages
 
 
 tokens = load_tokens.load_tokens()
-messenger = Send_Messages()
+
 
 #GHL Creds
 GHL_Client_ID = tokens["ghl_client_id"]
