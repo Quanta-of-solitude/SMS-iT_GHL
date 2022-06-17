@@ -61,7 +61,8 @@ Put your credentials in the fields assigned.
 <br />
 
 ### Run the flask server:
- 
+---
+
  ```
  python app.py
  ```
@@ -72,9 +73,10 @@ Also, run ngrok at port 5000.
 <br />
 
 ### GHL Marketplace Setup
+---
 
 In your created app, go to SMS providers and add the generated ngrok link with /smsit_sms as endpoint.
-Example: 123ascf.dase.ngrok.io/smsit_sms
+<br>Example: 123ascf.dase.ngrok.io/smsit_sms
 
 Once done and the app is authorized, we can use the the conversations API within GHL to send message to a contact or message a contact through GHL appointments diretly through SMS-iT.
 
