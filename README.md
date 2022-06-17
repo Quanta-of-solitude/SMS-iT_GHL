@@ -80,4 +80,4 @@ In your created app, go to SMS providers and add the generated ngrok link with /
 
 Once done and the app is authorized, we can use the the conversations API within GHL to send message to a contact or message a contact through GHL appointments diretly through SMS-iT.
 
-> more to be updated.
+> more to be updated: Incoming
