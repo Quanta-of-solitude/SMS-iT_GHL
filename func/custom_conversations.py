@@ -8,7 +8,7 @@ class Send_Messages():
     def __init__(self,key,deviceID):
         self.endpoint = "https://www.smsit.ai/smsgateway/services/send.php"
         self.key = key
-        self.deviceID = deviceID
+        self.deviceID = int(deviceID)
     
     def send_sms_smsIT(self,data):
         #get contact phone 
