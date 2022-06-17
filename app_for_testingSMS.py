@@ -10,7 +10,7 @@ import func.custom_conversations as converse
 app = Flask(__name__)
 
 ghl_functions = GHL()
-messenger = converse.Send_Messages()
+messenger = converse.Send_Messages("your sms-it key", "your device ID")
 
 #Tokens Loaded
 tokens = load_tokens.load_tokens()
